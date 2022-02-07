@@ -19,7 +19,14 @@ namespace App1
 
         private void button2_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("Хотите выйти?");
+        }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+        
+          MessageBox.Show("Не могу отобразить ");
+     
         }
     }
 }
